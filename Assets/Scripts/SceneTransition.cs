@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
+    private bool isPlayerInRange;
     private Animator animator;
 
     [SerializeField] private AnimationClip animacionFinal;
@@ -13,7 +14,7 @@ public class SceneTransition : MonoBehaviour
     }
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.Space)) {
+        if(isPlayerInRange) {
             StartCoroutine(CambiarEscena());
         }
     }
@@ -23,7 +24,17 @@ public class SceneTransition : MonoBehaviour
         animator.SetTrigger("Iniciar");
         yield return new WaitForSeconds(animacionFinal.length);
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        isPlayerInRange = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isPlayerInRange = false;
     }
 }
