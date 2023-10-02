@@ -23,10 +23,12 @@ public class PlayerController : MonoBehaviour
 
     [Header("Animator")]
     private Animator anim;
+    private SpriteRenderer theSR;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        theSR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -52,7 +54,11 @@ public class PlayerController : MonoBehaviour
             }
             
         }*/
-
-        anim.SetFloat("moveSpeed", theRB.velocity.x);
+        if(theRB.velocity.x < 0) {
+            theSR.flipX = true;
+        } else if(theRB.velocity.x > 0) {
+            theSR.flipX = false;
+        }
+        anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
     }
 }
