@@ -1947,6 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 113063f61ffba294396698d892fbb568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  res_dropdown: {fileID: 0}
   audioMixer: {fileID: 24100000, guid: 8bf2e45ab756ceb4a8dacd766d4c8b21, type: 2}
 --- !u!95 &884901808
 Animator:
@@ -4087,7 +4088,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1818875857
 RectTransform:
   m_ObjectHideFlags: 0
