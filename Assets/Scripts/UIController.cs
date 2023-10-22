@@ -6,8 +6,7 @@ public class UIController : MonoBehaviour
 {
     public static UIController instance;
 
-    public TMP_Text hp;
-    public TMP_Text timer_tmp;
+    public TMP_Text hp, timer_tmp, aciertos;
 
     private void Awake() {
         instance = this;
@@ -30,6 +29,12 @@ public class UIController : MonoBehaviour
 
     public void UpdateTimerDisplay() {
         timer_tmp.text = TimerController.instance.timer.ToString("f0");
+    }
+
+    public void UpdateWinsDisplay()
+    {
+        aciertos.text = SilhouetteMinigame.instance.wins.ToString();
+        Debug.Log("olaa actualizo wins");    
     }
 
 }
