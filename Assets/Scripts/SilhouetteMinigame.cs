@@ -9,6 +9,8 @@ public class SilhouetteMinigame : MonoBehaviour
     public bool hasTouchedPlayer;
     public bool allowChange;
 
+    public int chosenAnimal;
+
     [SerializeField]
     private float moveSpeed;
 
@@ -20,7 +22,7 @@ public class SilhouetteMinigame : MonoBehaviour
 
     public SpriteRenderer playerImage;
 
-    public Sprite leon, elefante, caballo, payaso;
+    public GameObject leon, elefante, caballo;
 
     [SerializeField] private GameObject humo;
     
@@ -37,21 +39,18 @@ public class SilhouetteMinigame : MonoBehaviour
         if(PlayerHealthController.instance.currentHealth>0) {
             if (!hasTouchedPlayer)
             {          
-                if (TimerController.instance.timer>0) {
-                    Debug.Log("ola");
-                }
-                else{
+                if (TimerController.instance.timer<=0) {
                     humo.SetActive(false);
                     TimerController.instance.timer = 0;
                     transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
                     allowChange = false;
                 }
-
             }
             else
             {
                 transform.position = posicionOriginal.position;
                 if (transform.position == posicionOriginal.position) {
+                    playerImage.GetComponent<Renderer>().enabled = true;
                     hasTouchedPlayer = false;
                     TimerController.instance.timer = 10;
                     allowChange = true;
@@ -70,21 +69,19 @@ public class SilhouetteMinigame : MonoBehaviour
     public void ChooseAnimal(int animal) {
         if(allowChange) {
             humo.SetActive(true);
+            playerImage.enabled = false;
+            chosenAnimal = animal;
+            allowChange = false;
             switch (animal)
             {
                 case 1:
-                    playerImage.sprite = leon;
-                    allowChange = false;
-                    Debug.Log(animal);
+                    leon.SetActive(true);
                     break;
                 case 2:
-                    playerImage.sprite = elefante;
-                    allowChange = false;
+                    elefante.SetActive(true);
                     break;
                 case 3:
-                    playerImage.sprite = caballo;
-                    allowChange = false;
-                    Debug.Log(animal);
+                    caballo.SetActive(true);
                     break;
                 default:
 
