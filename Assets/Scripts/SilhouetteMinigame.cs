@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SilhouetteMinigame : MonoBehaviour
 {
     // DECLARACION DE VARIABLES
-
-
     [SerializeField]
     private float moveSpeed;
 
@@ -24,14 +24,19 @@ public class SilhouetteMinigame : MonoBehaviour
 
     public bool allowChange;
 
-    public int chosenAnimal, chosenSilhouette, wins;
+    public bool isGameRunning;
+
+    public static SilhouetteMinigame instance;
+    public int chosenAnimal, chosenSilhouette;
+
+    public int aciertos;
+
+    public TMP_Text aciertos_text;
 
     public SpriteRenderer playerImage;
 
-    public GameObject leon, elefante, caballo, siluetaLeon, siluetaElefante, siluetaCaballo;
-
-    public static SilhouetteMinigame instance;
-    
+    public GameObject leon, elefante, caballo, siluetaLeon;
+    public GameObject siluetaElefante, siluetaCaballo, tutorial, pantallaVictoria;
 
     private void Awake()
     {
@@ -41,33 +46,33 @@ public class SilhouetteMinigame : MonoBehaviour
     void Start()
     {
         posicionOriginal.position = transform.position;
-        Debug.Log(posicionOriginal.position.x);
         allowChange = true;
-        wins = 0;
+        aciertos = 0;
         ChooseSilhouette();
+        isGameRunning = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(wins<3) {
-            if (PlayerHealthController.instance.currentHealth > 0)
+        if(isGameRunning) {
+            if (aciertos < 3)
             {
-                if (!hasTouchedPlayer)
+                if (PlayerHealthController.instance.currentHealth > 0)
                 {
-                    if (TimerController.instance.timer <= 0)
+                    if (!hasTouchedPlayer)
                     {
-                        humo.SetActive(false);
-                        TimerController.instance.timer = 0;
-                        transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
-                        allowChange = false;
+                        if (TimerController.instance.timer <= 0)
+                        {
+                            humo.SetActive(false);
+                            TimerController.instance.timer = 0;
+                            transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+                            allowChange = false;
+                        }
                     }
-                }
-                else
-                {
-                    transform.position = posicionOriginal.position;
-                    if (transform.position == posicionOriginal.position)
+                    else
                     {
+                        transform.position = posicionOriginal.position;
                         leon.SetActive(false);
                         elefante.SetActive(false);
                         caballo.SetActive(false);
@@ -77,21 +82,30 @@ public class SilhouetteMinigame : MonoBehaviour
                         allowChange = true;
                         chosenAnimal = 0;
                         ChooseSilhouette();
-                    }
 
+
+                    }
                 }
             }
+            else
+            {
+                isGameRunning = false;
+                transform.position = posicionOriginal.position;
+            }
+        }else if(!isGameRunning && tutorial.activeSelf == false)
+        {
+            pantallaVictoria.SetActive(true);
         }
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (chosenAnimal == chosenSilhouette)
         {
-            wins+=1;
-            UIController.instance.UpdateWinsDisplay();
-            Debug.Log("WINS: "+ wins);
+            aciertos+=1;
+            aciertos_text.text = aciertos.ToString();
         }
-        else
+        if( chosenAnimal!=chosenSilhouette)
         {
             PlayerHealthController.instance.DealDamage();
         }
@@ -104,7 +118,6 @@ public class SilhouetteMinigame : MonoBehaviour
             humo.SetActive(true);
             playerImage.enabled = false;
             chosenAnimal = animal;
-            Debug.Log("CHA: Animal" + chosenAnimal);
             allowChange = false;
             switch (animal)
             {
@@ -133,9 +146,9 @@ public class SilhouetteMinigame : MonoBehaviour
         siluetaCaballo.SetActive(false);
         
         //Se obtiene un numero aleatorio del 1 al 3, despues se le asigna a la variable chosenSilhouette con la que podremos evaluar si es igual al animal elegido por el jugador.
-        int randomAnimal = Random.Range(1, 3);    
+        int randomAnimal = Random.Range(1, 4);    
         chosenSilhouette = randomAnimal;
-
+        Debug.Log(randomAnimal);
         //Se utiliza un switch para evaluar el numero aleatorio, dependiendo del resultado se activa dicho gameObject.
         switch (randomAnimal) {
             case 1:
@@ -151,6 +164,16 @@ public class SilhouetteMinigame : MonoBehaviour
                 
                 break;
         }
+    }
+
+    public void GameStart(){
+        tutorial.SetActive(false);
+        isGameRunning = true;
+        TimerController.instance.isGameRunning = true;
+    }
+
+    public void NextLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }

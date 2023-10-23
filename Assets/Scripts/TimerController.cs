@@ -6,6 +6,7 @@ public class TimerController : MonoBehaviour
 {
     public static TimerController instance;
     public float timer = 10;
+    public bool isGameRunning = false;
 
     private void Awake()
     {
@@ -14,10 +15,14 @@ public class TimerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timer>0){
-            timer -= Time.deltaTime;
-            UIController.instance.UpdateTimerDisplay();
+        if(isGameRunning) {
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+                UIController.instance.UpdateTimerDisplay();
+            }
         }
+        
         
     }
 }
