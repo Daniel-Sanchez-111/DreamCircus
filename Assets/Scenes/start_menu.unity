@@ -2112,6 +2112,9 @@ MonoBehaviour:
   volume: {fileID: 631318444}
   purple_filter: {fileID: 882817908}
   audioMixer: {fileID: 24100000, guid: 8bf2e45ab756ceb4a8dacd766d4c8b21, type: 2}
+  fullscreen: {fileID: 789897879}
+  filter: {fileID: 1905007541}
+  volumenSlider: {fileID: 1080472039}
 --- !u!95 &884901808
 Animator:
   serializedVersion: 5
@@ -5525,6 +5528,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 884901807}
+        m_TargetAssemblyTypeName: Options_menu, Assembly-CSharp
+        m_MethodName: SavePrefs
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
