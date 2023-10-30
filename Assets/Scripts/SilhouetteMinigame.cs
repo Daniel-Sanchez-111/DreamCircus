@@ -173,7 +173,8 @@ public class SilhouetteMinigame : MonoBehaviour
     }
 
     public void NextLevel(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        GameController.first_flag = true;
+        SceneManager.LoadScene(1);
     }
 
 }

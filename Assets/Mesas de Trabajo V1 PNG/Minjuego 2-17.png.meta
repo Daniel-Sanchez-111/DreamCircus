@@ -1,0 +1,1460 @@
+fileFormatVersion: 2
+guid: 4e24896e82a7d7d44bb645611a46cfcc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Minjuego 2-17_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4037
+        width: 234
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d474c00ecaf1434892bad0a950041cc
+      internalID: -660155233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 4037
+        width: 215
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e224e8368d53fc4897a86c9ef4911c5
+      internalID: -1531046336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 4033
+        width: 183
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9ec4d9d1a7ca648960eceaedb6c486
+      internalID: 1853472295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_3
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 4037
+        width: 210
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad08aa258df74374492cca92af95b071
+      internalID: 223203876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_4
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 4037
+        width: 192
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c914cd2a4236243873f73879f26175
+      internalID: 941203877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_5
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 4037
+        width: 192
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b131f678e3ab141aefef407144e5eb
+      internalID: 1939891144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_6
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 4033
+        width: 191
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b42d4159f5871429e6786974666ec6
+      internalID: -789240605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_7
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 4037
+        width: 234
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97b13598693fa949bec56745a77c044
+      internalID: 1243967851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_8
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 4037
+        width: 129
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773ce6e000b96545941303396ddd476
+      internalID: -172659723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_9
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 3971
+        width: 136
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856008cb688e4df47af08415703dd849
+      internalID: -1439737910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_10
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 4037
+        width: 238
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace1d4e0ed50c914bb0d52fa471e5427
+      internalID: -1736180577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_11
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 4037
+        width: 191
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5ef183debdb114ea46dd0a3140d37e
+      internalID: 1995490387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_12
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 4037
+        width: 301
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78511efb2ba8404d80307602fbafae3
+      internalID: -139261945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_13
+      rect:
+        serializedVersion: 2
+        x: 5047
+        y: 4037
+        width: 240
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118b954af67059d438ec44a5464234d9
+      internalID: -1042114159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_14
+      rect:
+        serializedVersion: 2
+        x: 5463
+        y: 4037
+        width: 234
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5da3601425481448fba3f592ecbc5d
+      internalID: 146705394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3565
+        width: 195
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8d25cae7717b44a2762c548759107
+      internalID: -1021859112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_16
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 3568
+        width: 215
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3ef0d6a3b792f428307c122eb110e3
+      internalID: -119992608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3518
+        width: 196
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc6665d6bfe0a45b76dd9c29c0ae01
+      internalID: 517651186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_18
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 3568
+        width: 235
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed560054a0ae36448b39abc2242d3cbe
+      internalID: -244753322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_19
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 3565
+        width: 175
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ba14f22e56ab49a26bb7bef101b04
+      internalID: 243946922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_20
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 3568
+        width: 215
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7df70ac4b5dd84b8147444302deb84
+      internalID: 1346655933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_21
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 3565
+        width: 238
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3b5dbeb58b8d47bd8a6bb663d8372
+      internalID: -1087204392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_22
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 3568
+        width: 234
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21f1c99e8c637f439f9f90c416dd170
+      internalID: -1228774921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_23
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 3568
+        width: 325
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802d5724458541741a7ab04762f7718f
+      internalID: 142520175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_24
+      rect:
+        serializedVersion: 2
+        x: 4764
+        y: 3568
+        width: 238
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8957068fa47aed94ab228c04e682cf7e
+      internalID: 23646302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_25
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 3568
+        width: 234
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d354cee63aa645afe2d23f316a066
+      internalID: -914515231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_26
+      rect:
+        serializedVersion: 2
+        x: 5502
+        y: 3568
+        width: 168
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1de4ea92d0681f49a9819a33f98dfe8
+      internalID: 1526372467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_27
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 2999
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef790571bd345d4c8cc3fa678eec514
+      internalID: 139032416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_28
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3010
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1022e04048cb84882c0ce8d9e06fd9
+      internalID: 46382584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_29
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 3025
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b569eac48a5dec748b57f3de6ad57d7f
+      internalID: 1953025009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_30
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 1822
+        width: 2760
+        height: 1344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7404eaa578697b04f8fa1e0d1f9288e5
+      internalID: -91033994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_31
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 2186
+        width: 1304
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169a830bc5a13c44b93101c7a3a97b26
+      internalID: 579118868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_32
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 3002
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2526c3e51debd445b83e69b4031371b
+      internalID: -194773813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_33
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1823
+        width: 1101
+        height: 1034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea3c4d96cb8d8649b5c20481ef8ec26
+      internalID: 1538613782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_34
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 2682
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93626dd69c4844c4797af4cab5d3c936
+      internalID: -1839131404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_35
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 2596
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ef2fa6899eca645ba9687723294c49
+      internalID: -861780956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1147
+        width: 305
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b924597c5c4434ebdf9ea089458906
+      internalID: -1748560278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_37
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1146
+        width: 180
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592ed0ed61e7feb4887ed91336a6cbc5
+      internalID: 574511316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_38
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1150
+        width: 222
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148206deaebf2a6429dc6ce0da669e71
+      internalID: 1813016056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_39
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1150
+        width: 195
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0942442f319c0e74c8adfcdc1d855301
+      internalID: 552850494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_40
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1150
+        width: 180
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0139d0078a97d4894b0937946ee8c0
+      internalID: -1072464864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_41
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1150
+        width: 222
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94768bbff1526754199280cf67a474d9
+      internalID: 843735777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_42
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1146
+        width: 175
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b2f4409da4f8343b116971ab7d3136
+      internalID: 735259994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_43
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 1150
+        width: 340
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3597996c7680184fb229d4cb4dac328
+      internalID: -294927230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_44
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 1146
+        width: 176
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5194d9089332a9428bccaea7cbef96c
+      internalID: -808924473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_45
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1146
+        width: 218
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8819a0d981152b64eba34e936c41db58
+      internalID: 919382256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_46
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 1146
+        width: 167
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4eb25b0fb453b4797cd15893d46575
+      internalID: 168789190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_47
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 119
+        width: 2758
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b635f11f5c38a243addd62a9827f642
+      internalID: -617950235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_48
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 459
+        width: 179
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cec69a3b0264f74c9eace662907a485
+      internalID: 603178080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_49
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 459
+        width: 179
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59852567fcdf6e14f83cabd477cac5f3
+      internalID: 1297447106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_50
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 459
+        width: 179
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a547c1453fa8f04f88edff503cd9702
+      internalID: -1904027296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_51
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65bab8008e245a4abb59901d96637cd
+      internalID: -1869336930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_52
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92425738660e53a4b97dd9dcab568ca7
+      internalID: 1222854758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_53
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60039ccbe0637d843b452470654f4a1c
+      internalID: -1385073023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_54
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d9ec39bd5cf8f4994de73849328521
+      internalID: 49584924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_55
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 459
+        width: 179
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482fb92fb1fbb834db364e4d7bed34ff
+      internalID: 555331057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_56
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 459
+        width: 179
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11cce6114a45f74d8ab67ecf01620a6
+      internalID: -1748976773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_57
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26163db9c9be5554c93c04516d9218c5
+      internalID: 817203164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_58
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4d9027e90bb024f9c63a0327ee5c2f
+      internalID: 681638392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minjuego 2-17_59
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 459
+        width: 180
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d3128d00077d4fa7bb2ec6bd10471
+      internalID: 1454636352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Minjuego 2-17_0: -660155233
+      Minjuego 2-17_1: -1531046336
+      Minjuego 2-17_10: -1736180577
+      Minjuego 2-17_11: 1995490387
+      Minjuego 2-17_12: -139261945
+      Minjuego 2-17_13: -1042114159
+      Minjuego 2-17_14: 146705394
+      Minjuego 2-17_15: -1021859112
+      Minjuego 2-17_16: -119992608
+      Minjuego 2-17_17: 517651186
+      Minjuego 2-17_18: -244753322
+      Minjuego 2-17_19: 243946922
+      Minjuego 2-17_2: 1853472295
+      Minjuego 2-17_20: 1346655933
+      Minjuego 2-17_21: -1087204392
+      Minjuego 2-17_22: -1228774921
+      Minjuego 2-17_23: 142520175
+      Minjuego 2-17_24: 23646302
+      Minjuego 2-17_25: -914515231
+      Minjuego 2-17_26: 1526372467
+      Minjuego 2-17_27: 139032416
+      Minjuego 2-17_28: 46382584
+      Minjuego 2-17_29: 1953025009
+      Minjuego 2-17_3: 223203876
+      Minjuego 2-17_30: -91033994
+      Minjuego 2-17_31: 579118868
+      Minjuego 2-17_32: -194773813
+      Minjuego 2-17_33: 1538613782
+      Minjuego 2-17_34: -1839131404
+      Minjuego 2-17_35: -861780956
+      Minjuego 2-17_36: -1748560278
+      Minjuego 2-17_37: 574511316
+      Minjuego 2-17_38: 1813016056
+      Minjuego 2-17_39: 552850494
+      Minjuego 2-17_4: 941203877
+      Minjuego 2-17_40: -1072464864
+      Minjuego 2-17_41: 843735777
+      Minjuego 2-17_42: 735259994
+      Minjuego 2-17_43: -294927230
+      Minjuego 2-17_44: -808924473
+      Minjuego 2-17_45: 919382256
+      Minjuego 2-17_46: 168789190
+      Minjuego 2-17_47: -617950235
+      Minjuego 2-17_48: 603178080
+      Minjuego 2-17_49: 1297447106
+      Minjuego 2-17_5: 1939891144
+      Minjuego 2-17_50: -1904027296
+      Minjuego 2-17_51: -1869336930
+      Minjuego 2-17_52: 1222854758
+      Minjuego 2-17_53: -1385073023
+      Minjuego 2-17_54: 49584924
+      Minjuego 2-17_55: 555331057
+      Minjuego 2-17_56: -1748976773
+      Minjuego 2-17_57: 817203164
+      Minjuego 2-17_58: 681638392
+      Minjuego 2-17_59: 1454636352
+      Minjuego 2-17_6: -789240605
+      Minjuego 2-17_7: 1243967851
+      Minjuego 2-17_8: -172659723
+      Minjuego 2-17_9: -1439737910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

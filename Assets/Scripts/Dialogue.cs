@@ -16,6 +16,9 @@ public class Dialogue : MonoBehaviour
     private bool didDialogueStart;
     private int lineIndex;
     private float typingTime = 0.1f;
+
+    public int idPresentador;
+    public Transform playerTransform;
     // Update is called once per frame
     void Update()
     {
@@ -44,10 +47,22 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(ShowLine());
         }else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             activarInteraccion.SetActive(true);
+            switch (idPresentador) {
+                case 1:
+                    break;
+                case 2:
+                    SceneManager.LoadScene(3);
+                    break;
+                case 3:
+                    SceneManager.LoadScene(4);
+                    break;
+                default :
+                    
+                    break;
+            }
         }
     }
 
