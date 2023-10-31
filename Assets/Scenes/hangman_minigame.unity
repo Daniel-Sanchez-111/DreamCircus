@@ -221,7 +221,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 62232960}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: X
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &62232960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +445,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 191612023}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Z
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &191612023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +669,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216726889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: I
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &216726889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,7 +818,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221261786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: S
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221261786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,7 +1042,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 253914869}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: G
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &253914869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1577,7 +1637,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 334517310}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: U
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &334517310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,7 +2367,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 475319245}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: V
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &475319245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2507,7 +2591,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 514061489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: C
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &514061489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,7 +2740,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 562261313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: W
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &562261313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2781,7 +2889,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583585528}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\xD1"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583585528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2993,7 +3113,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 605819858}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Q
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &605819858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3093,7 +3225,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1591021377}
-  - {fileID: 1293039884}
+  - {fileID: 1288230857}
   m_Father: {fileID: 395685863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3649,7 +3781,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 863643616}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: R
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &863643616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3945,7 +4089,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 873276515}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &873276515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4082,7 +4238,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 881830572}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: E
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &881830572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4132,7 +4300,7 @@ GameObject:
   - component: {fileID: 882731643}
   - component: {fileID: 882731646}
   m_Layer: 0
-  m_Name: plataforma3 (2)
+  m_Name: plataforma6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4303,7 +4471,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 901174387}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: J
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &901174387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4646,7 +4826,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 959034640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: F
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &959034640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4822,90 +5014,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006506973}
   m_CullTransparentMesh: 1
---- !u!1 &1012609003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1012609005}
-  - component: {fileID: 1012609004}
-  m_Layer: 0
-  m_Name: Minjuego 2-15
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1012609004
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012609003}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 30e07b5d33b19a34fa6c08f5e3d8280a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 80, y: 45}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1012609005
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1012609003}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.2, y: -0.3, z: 0}
-  m_LocalScale: {x: 0.2335424, y: 0.2335424, z: 0.2335424}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1075144221
 GameObject:
   m_ObjectHideFlags: 0
@@ -5004,7 +5112,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1075144225}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: B
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1075144225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5130,7 +5250,7 @@ GameObject:
   - component: {fileID: 1169999668}
   - component: {fileID: 1169999666}
   m_Layer: 0
-  m_Name: plataforma3 (1)
+  m_Name: plataforma5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5466,7 +5586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1192941188}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: L
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1192941188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5603,7 +5735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1281691480}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: M
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1281691480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5779,7 +5923,7 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!1 &1293039883
+--- !u!1 &1288230856
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5787,23 +5931,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1293039884}
-  - component: {fileID: 1293039886}
-  - component: {fileID: 1293039885}
+  - component: {fileID: 1288230857}
+  - component: {fileID: 1288230859}
+  - component: {fileID: 1288230858}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: palabra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1293039884
+--- !u!224 &1288230857
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293039883}
+  m_GameObject: {fileID: 1288230856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5813,16 +5957,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000000068918, y: -54.581}
-  m_SizeDelta: {x: 871.5978, y: 104.1345}
+  m_AnchoredPosition: {x: -1.6022, y: -58.601624}
+  m_SizeDelta: {x: 829.9803, y: 83.5776}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1293039885
+--- !u!114 &1288230858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293039883}
+  m_GameObject: {fileID: 1288230856}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -5839,14 +5983,14 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93849fc89e4136a4695ad1b1a32ea628, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 30fc8b5b8e353cd48aa3ec2fe2e6092b, type: 2}
+  m_sharedMaterial: {fileID: 2696922500957320362, guid: 93849fc89e4136a4695ad1b1a32ea628, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288256480
-  m_fontColor: {r: 0.8784314, g: 0.6, b: 0.6, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5863,8 +6007,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 110
-  m_fontSizeBase: 110
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5873,7 +6017,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 10
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5905,13 +6049,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1293039886
+--- !u!222 &1288230859
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293039883}
+  m_GameObject: {fileID: 1288230856}
   m_CullTransparentMesh: 1
 --- !u!1 &1334526075
 GameObject:
@@ -6011,7 +6155,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1334526079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: D
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1334526079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6148,7 +6304,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1371594374}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: N
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1371594374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6949,7 +7117,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1713730070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Y
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1713730070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7194,7 +7374,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1725558086}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: H
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1725558086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7280,6 +7472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad2835de3ea5b74c9e69c135de9203e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wordContainer: {fileID: 1288230858}
 --- !u!1 &1828403026
 GameObject:
   m_ObjectHideFlags: 0
@@ -7528,7 +7721,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859582195}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: P
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1859582195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7681,7 +7886,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1926554147}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: A
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1926554147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7833,7 +8050,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1949091778}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: O
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1949091778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8045,7 +8274,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2111770346}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1795986780}
+        m_TargetAssemblyTypeName: HangmanMinigame, Assembly-CSharp
+        m_MethodName: CheckLetter
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: K
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2111770346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8166,5 +8407,4 @@ SceneRoots:
   - {fileID: 1282287653}
   - {fileID: 943064672}
   - {fileID: 1795986779}
-  - {fileID: 1012609005}
   - {fileID: 1718064444}

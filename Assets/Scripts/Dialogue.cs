@@ -54,10 +54,10 @@ public class Dialogue : MonoBehaviour
                 case 1:
                     break;
                 case 2:
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene(2);
                     break;
                 case 3:
-                    SceneManager.LoadScene(4);
+                    SceneManager.LoadScene(3);
                     break;
                 default :
                     
