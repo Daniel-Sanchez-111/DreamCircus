@@ -12,7 +12,12 @@ public class start_menu : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     public void Jugar () {
-            StartCoroutine(CambiarEscena());
+        GameController.first_flag = false;
+        GameController.second_flag = false;
+        GameController.third_flag = false;
+        GameController.fourth_flag = false;
+        GameController.fifth_flag = false;
+        StartCoroutine(CambiarEscena());
     }
 
     public void Salir () {
