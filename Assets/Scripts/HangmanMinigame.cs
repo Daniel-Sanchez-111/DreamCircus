@@ -14,9 +14,18 @@ public class HangmanMinigame : MonoBehaviour
 
     public int mistakes = 0, completedWords = 0;
     private bool isComplete, isGameRunning = false, isCorrect = false;
+    public bool triggerAlberca = false;
 
     private char[] wordCh, underscores;
     private Transform playerTransform;
+
+    public static HangmanMinigame instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         var rigidbody = GetComponent<Rigidbody2D>();
@@ -42,7 +51,6 @@ public class HangmanMinigame : MonoBehaviour
                 else
                 {
                     isGameRunning = false;
-                    pantallaDerrota.SetActive(true);
                 }
             }
             else
@@ -50,9 +58,14 @@ public class HangmanMinigame : MonoBehaviour
                 isGameRunning = false;
             }
         }
-        else if (!isGameRunning && tutorial.activeSelf == false)
+        else if (completedWords >= 3 && !isGameRunning)
         {
             pantallaVictoria.SetActive(true);
+        }
+
+        if (triggerAlberca)
+        {
+            pantallaDerrota.SetActive(true);
         }
     }
 

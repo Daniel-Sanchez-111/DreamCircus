@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), theRB.velocity.y);
         //CODIGO PARA EL SALTO DEL PERSONAJE, VERIFICA SI ESTÁ TOCANDO EL SUELO PARA PERMITIR EL DOBLE SALTO, GUARDADO POR SI LLEGARA A USARSE
-        //isGrounded = Physics2D.OverlapCircle(groundCheckpoint.position, .2f, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheckpoint.position, .2f, whatIsGround);
 
         /*if(isGrounded) {
             canDoubleJump = true;
@@ -54,11 +54,13 @@ public class PlayerController : MonoBehaviour
             }
             
         }*/
-        if(theRB.velocity.x < 0) {
+        if (theRB.velocity.x < 0)
+        {
             theSR.flipX = true;
         } else if(theRB.velocity.x > 0) {
             theSR.flipX = false;
         }
         anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
+        anim.SetBool("isGrounded", isGrounded);
     }
 }
