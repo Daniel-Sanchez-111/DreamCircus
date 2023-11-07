@@ -36,7 +36,7 @@ public class SilhouetteMinigame : MonoBehaviour
     public SpriteRenderer playerImage;
 
     public GameObject leon, elefante, caballo, siluetaLeon;
-    public GameObject siluetaElefante, siluetaCaballo, tutorial, pantallaVictoria;
+    public GameObject siluetaElefante, siluetaCaballo, tutorial, pantallaVictoria, pantallaDerrota;
 
     private void Awake()
     {
@@ -64,7 +64,6 @@ public class SilhouetteMinigame : MonoBehaviour
                     {
                         if (TimerController.instance.timer <= 0)
                         {
-                            humo.SetActive(false);
                             TimerController.instance.timer = 0;
                             transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
                             allowChange = false;
@@ -86,13 +85,18 @@ public class SilhouetteMinigame : MonoBehaviour
 
                     }
                 }
+                else
+                {
+                    isGameRunning = false;
+                    pantallaDerrota.SetActive(true);
+                }
             }
             else
             {
                 isGameRunning = false;
-                transform.position = posicionOriginal.position;
             }
-        }else if(!isGameRunning && tutorial.activeSelf == false)
+        }
+        else if (aciertos >= 3 && !isGameRunning)
         {
             pantallaVictoria.SetActive(true);
         }
@@ -115,7 +119,8 @@ public class SilhouetteMinigame : MonoBehaviour
 
     public void ChooseAnimal(int animal) {
         if(allowChange) {
-            humo.SetActive(true);
+            ParticleSystem ps = GameObject.Find("msVFX_Stylized Smoke 1").GetComponent<ParticleSystem>();
+            ps.Play();
             playerImage.enabled = false;
             chosenAnimal = animal;
             allowChange = false;
@@ -175,6 +180,11 @@ public class SilhouetteMinigame : MonoBehaviour
     public void NextLevel(){
         GameController.first_flag = true;
         SceneManager.LoadScene(1);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 }

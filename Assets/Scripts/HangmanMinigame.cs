@@ -30,6 +30,7 @@ public class HangmanMinigame : MonoBehaviour
     {
         var rigidbody = GetComponent<Rigidbody2D>();
         ChooseWord();
+        PlayerController.instance.isSitting = true;
     }
 
     // Update is called once per frame

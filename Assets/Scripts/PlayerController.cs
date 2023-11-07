@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [Header("Movimiento")]
     public float moveSpeed;
 
+    public bool isSitting;
+
     [Header("Salto")]
     private bool canDoubleJump;
     public float jumpForce;
@@ -24,6 +26,13 @@ public class PlayerController : MonoBehaviour
     [Header("Animator")]
     private Animator anim;
     private SpriteRenderer theSR;
+
+    public static PlayerController instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -62,5 +71,6 @@ public class PlayerController : MonoBehaviour
         }
         anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
+        anim.SetBool("isSitting", isSitting);
     }
 }

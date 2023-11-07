@@ -26,6 +26,12 @@ public class GameController : MonoBehaviour
             playerTransform.position = new Vector3(19, 0, 0); 
             stars += 1;
         }
+        if (second_flag == true)
+        {
+            second_level_wall.SetActive(false);
+            playerTransform.position = new Vector3(40, 0, 0);
+            stars += 1;
+        }
         UpdateStarsDisplay();
     }
 
@@ -36,9 +42,51 @@ public class GameController : MonoBehaviour
     }
 
     public void UpdateStarsDisplay () {
+        if (stars == 1)
+        {
+            star.SetActive(true);
+        }
+        if (stars == 2)
+        {
+            star2.SetActive(true);
+        }
+        if (stars == 3)
+        {
+            star3.SetActive(true);
+        }
+        if (stars == 4)
+        {
+            star4.SetActive(true);
+        }
+        if (stars == 5)
+        {
+            star5.SetActive(true);
+        }
         switch (stars) {
             case 1:
                 star.SetActive(true);
+                break;
+            case 2:
+                star.SetActive(true);
+                star2.SetActive(true);
+                break;
+            case 3:
+                star.SetActive(true);
+                star2.SetActive(true);
+                star3.SetActive(true);
+                break;
+            case 4:
+                star.SetActive(true);
+                star2.SetActive(true);
+                star3.SetActive(true);
+                star4.SetActive(true);
+                break;
+            case 5:
+                star.SetActive(true);
+                star2.SetActive(true);
+                star3.SetActive(true);
+                star4.SetActive(true);
+                star5.SetActive(true);
                 break;
             default :
                 
