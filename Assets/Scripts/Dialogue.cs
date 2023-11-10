@@ -15,7 +15,7 @@ public class Dialogue : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-    private float typingTime = 0.1f;
+    private float typingTime = 0.25f;
 
     public int idPresentador;
     public Transform playerTransform;
@@ -58,6 +58,9 @@ public class Dialogue : MonoBehaviour
                     break;
                 case 3:
                     SceneManager.LoadScene(3);
+                    break;
+                case 4:
+                    SceneManager.LoadScene(4);
                     break;
                 default :
                     

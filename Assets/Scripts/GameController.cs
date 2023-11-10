@@ -41,27 +41,8 @@ public class GameController : MonoBehaviour
         
     }
 
-    public void UpdateStarsDisplay () {
-        if (stars == 1)
-        {
-            star.SetActive(true);
-        }
-        if (stars == 2)
-        {
-            star2.SetActive(true);
-        }
-        if (stars == 3)
-        {
-            star3.SetActive(true);
-        }
-        if (stars == 4)
-        {
-            star4.SetActive(true);
-        }
-        if (stars == 5)
-        {
-            star5.SetActive(true);
-        }
+    public void UpdateStarsDisplay()
+    {
         switch (stars) {
             case 1:
                 star.SetActive(true);

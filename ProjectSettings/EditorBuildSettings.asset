@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/hangman_minigame.unity
     guid: eeff0b960aeac65458d3c3d6630400f6
+  - enabled: 1
+    path: Assets/Scenes/memory_minigame.unity
+    guid: a133fbf9fcb73b84c846af2ae76a2915
   - enabled: 0
     path: Assets/Scenes/second_level.unity
     guid: b30039c47c832e94b9f8779d37029d4b

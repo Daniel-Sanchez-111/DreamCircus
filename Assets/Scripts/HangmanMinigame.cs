@@ -8,7 +8,7 @@ public class HangmanMinigame : MonoBehaviour
 {
     string[] words = { "CIRCO", "PAYASO", "CARPA", "ELEFANTE", "CABALLO", "LEON", "ESPECTACULO", "DIVERSION", "FUNCION", "AMISTAD", "DOMADOR", "MALABARISTA", "MAGIA", "ACROBATA", "APLAUSO", "PISTA"};
 
-    [SerializeField] TMP_Text wordContainer;
+    [SerializeField] TMP_Text wordContainer, palabrasCompletas;
 
     [SerializeField] GameObject stage1, stage2, stage3, stage4, stage5, stage6, platform, player, tutorial, pantallaDerrota, pantallaVictoria;
 
@@ -42,7 +42,7 @@ public class HangmanMinigame : MonoBehaviour
             {
                 if (mistakes < 6)
                 {
-                    if (isComplete && completedWords < 3)
+                    if (isComplete)
                     {
                         wordContainer.text = "";
                         isComplete = false;
@@ -59,7 +59,7 @@ public class HangmanMinigame : MonoBehaviour
                 isGameRunning = false;
             }
         }
-        else if (completedWords >= 3 && !isGameRunning)
+        else if (completedWords >= 3)
         {
             pantallaVictoria.SetActive(true);
         }
@@ -119,6 +119,7 @@ public class HangmanMinigame : MonoBehaviour
         if (isComplete)
         {
             completedWords += 1;
+            palabrasCompletas.text = completedWords.ToString();
         }
     }
 
@@ -162,6 +163,7 @@ public class HangmanMinigame : MonoBehaviour
                 stage5.GetComponent<Rigidbody2D>().rotation = 60f;
                 platform.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
                 player.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+                PlayerController.instance.isSitting = false;
                 break;
             default:
 
