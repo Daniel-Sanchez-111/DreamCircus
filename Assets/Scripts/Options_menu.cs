@@ -12,10 +12,13 @@ public class Options_menu : MonoBehaviour
 
     public Volume volume;
     [SerializeField] private GameObject purple_filter;
-    [SerializeField] private AudioMixer audioMixer;
+    [SerializeField] private AudioMixer audioMixerEfectos;
+    [SerializeField] private AudioMixer audioMixerMusica;
 
     [SerializeField] private Toggle fullscreen, filter;
-    [SerializeField] private Slider volumenSlider;
+    [SerializeField] private Slider volumenSliderEfectos;
+    [SerializeField] private Slider volumenSliderMusica;
+
 
     private void Start() {
         LoadPrefs();
@@ -26,10 +29,18 @@ public class Options_menu : MonoBehaviour
         PlayerPrefs.SetInt("pantallaCompleta", pantallaCompleta ? 1 : 0);
     }
 
-    public void CambiarVolumen (float nuevoVolumen) {
-        audioMixer.SetFloat("Volumen", nuevoVolumen);
-        PlayerPrefs.SetFloat("nuevoVolumen", nuevoVolumen);
-        
+    public void CambiarVolumenEfectos(float nuevoVolumen)
+    {
+        audioMixerEfectos.SetFloat("Volumen", nuevoVolumen);
+        PlayerPrefs.SetFloat("VolumenEfectos", nuevoVolumen);
+
+    }
+
+    public void CambiarVolumenMusica(float nuevoVolumen)
+    {
+        audioMixerMusica.SetFloat("Volumen", nuevoVolumen);
+        PlayerPrefs.SetFloat("VolumenMusica", nuevoVolumen);
+
     }
 
     public void ActivarFiltro (bool filtro) {
@@ -43,13 +54,16 @@ public class Options_menu : MonoBehaviour
 
     public void LoadPrefs () {
         bool pantallaCompleta = PlayerPrefs.GetInt("pantallaCompleta") == 1;
-        float nuevoVolumen = PlayerPrefs.GetFloat("nuevoVolumen",50);
+        float nuevoVolumenEfectos = PlayerPrefs.GetFloat("VolumenEfectos", 50);
+        float nuevoVolumenMusica = PlayerPrefs.GetFloat("VolumenMusica", 50);
         bool filtro = PlayerPrefs.GetInt("filtro") == 1;
         Screen.fullScreen = pantallaCompleta;
-        audioMixer.SetFloat("Volumen", nuevoVolumen);
+        audioMixerEfectos.SetFloat("Volumen", nuevoVolumenEfectos);
+        audioMixerMusica.SetFloat("Volumen", nuevoVolumenMusica);
         volume.gameObject.SetActive(filtro);
         fullscreen.isOn = pantallaCompleta;
         filter.isOn = filtro;
-        volumenSlider.value = nuevoVolumen;
+        volumenSliderEfectos.value = nuevoVolumenEfectos;
+        volumenSliderMusica.value = nuevoVolumenMusica;
     }
 }

@@ -16,6 +16,21 @@ public class MemoryGame : MonoBehaviour
     [SerializeField] private MainImageScript startObject;
     [SerializeField] private Sprite[] images;
 
+    [SerializeField] private GameObject tutorial;
+
+    [SerializeField] private GameObject rightAnswerSound;
+    [SerializeField] private GameObject victoriaSound;
+    [SerializeField] private GameObject errorSound;
+
+    private MainImageScript firstOpen;
+    private MainImageScript secondOpen;
+
+    private int score = 0;
+    private int attempts = 0;
+
+    [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TMP_Text attemptsText;
+
     private int[] Randomiser(int[] locations)
     {
         int[] array = locations.Clone() as int[];
@@ -60,14 +75,15 @@ public class MemoryGame : MonoBehaviour
         }
     }
 
-    private MainImageScript firstOpen;
-    private MainImageScript secondOpen;
+    private void Update()
+    {
+        if (score == 4)
+        {
+            victoriaSound.SetActive(true);
+        }
+    }
 
-    private int score = 0;
-    private int attempts = 0;
 
-    [SerializeField] private TMP_Text scoreText;
-    [SerializeField] private TMP_Text attemptsText;
 
     public bool canOpen
     {
@@ -76,6 +92,8 @@ public class MemoryGame : MonoBehaviour
 
     public void ImageOpened(MainImageScript startObject)
     {
+        rightAnswerSound.SetActive(false);
+        errorSound.SetActive(false);
         if (firstOpen == null)
         {
             firstOpen = startObject;
@@ -91,11 +109,13 @@ public class MemoryGame : MonoBehaviour
     {
         if (firstOpen.spriteId == secondOpen.spriteId)
         {
+            rightAnswerSound.SetActive(true);
             score++;
             scoreText.text = score.ToString();
         }
         else
         {
+            errorSound.SetActive(true);
             yield return new WaitForSeconds(0.5f);
 
             firstOpen.Close();
@@ -114,10 +134,21 @@ public class MemoryGame : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void Salir()
+    {
+        GameController.third_flag = true;
+        SceneManager.LoadScene(1);
+    }
+
     public void NextLevel()
     {
         GameController.third_flag = true;
         SceneManager.LoadScene(1);
+    }
+
+    public void CerrarTutorial()
+    {
+        tutorial.SetActive(false);
     }
 
 

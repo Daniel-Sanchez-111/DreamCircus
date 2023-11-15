@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private SpriteRenderer theSR;
 
+    [SerializeField] private GameObject stepSound;
+
     public static PlayerController instance;
 
     private void Awake()
@@ -44,6 +46,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), theRB.velocity.y);
+        if (theRB.velocity.x != 0)
+        {
+            stepSound.SetActive(true);
+        }
+        else
+        {
+            stepSound.SetActive(false);
+        }
+
         //CODIGO PARA EL SALTO DEL PERSONAJE, VERIFICA SI ESTÁ TOCANDO EL SUELO PARA PERMITIR EL DOBLE SALTO, GUARDADO POR SI LLEGARA A USARSE
         isGrounded = Physics2D.OverlapCircle(groundCheckpoint.position, .2f, whatIsGround);
 

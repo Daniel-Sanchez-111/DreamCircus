@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -9,12 +10,14 @@ public class GameController : MonoBehaviour
 
     //public static GameController instance;
 
-    public GameObject first_level_wall, second_level_wall, third_level_wall, fourth_level_wall, fifth_level_wall;
-    public GameObject star, star2, star3, star4, star5;
+    [SerializeField] private GameObject first_level_wall, second_level_wall, demoscreen, pausescreen;
+    [SerializeField] private GameObject star, star2, star3, star4, star5;
+
+    [SerializeField] private GameObject pauseButton;
 
     public static bool first_flag, second_flag, third_flag, fourth_flag, fifth_flag;
-
     public Transform playerTransform;
+
     /*private void Awake() {
         instance = this;
     }*/
@@ -32,13 +35,18 @@ public class GameController : MonoBehaviour
             playerTransform.position = new Vector3(40, 0, 0);
             stars += 1;
         }
+        if (third_flag == true)
+        {
+            playerTransform.position = new Vector3(10, 0, 0);
+            demoscreen.SetActive(true);
+        }
         UpdateStarsDisplay();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void UpdateStarsDisplay()
@@ -74,4 +82,26 @@ public class GameController : MonoBehaviour
                 break;
         }
     }
+
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Pause()
+    {
+        pausescreen.SetActive(true);
+        PlayerController.instance.moveSpeed = 0;
+        pauseButton.SetActive(false);
+    }
+
+    public void Resume()
+    {
+        pausescreen.SetActive(false);
+        PlayerController.instance.moveSpeed = 3;
+        pauseButton.SetActive(true);
+    }
+
+
 }

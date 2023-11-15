@@ -11,11 +11,13 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogue1;
     [SerializeField] private TMP_Text dialogue2;
+
+    [SerializeField] private GameObject dialogueSound;
     [SerializeField, TextArea(4,6)] private string[] dialogueLines;
     private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
-    private float typingTime = 0.25f;
+    private float typingTime = 0.15f;
 
     public int idPresentador;
     public Transform playerTransform;
@@ -24,10 +26,12 @@ public class Dialogue : MonoBehaviour
     {
         if(isPlayerInRange && Input.GetButtonDown("Fire2")) {
             if(!didDialogueStart) {
-                StartDialogue();                
+                StartDialogue();
+                dialogueSound.SetActive(true);
             }
             else if(dialogue1.text ==  dialogueLines[lineIndex]){
                 NextDialogueLine();
+                dialogueSound.SetActive(false);
             }
 
         }

@@ -12,6 +12,12 @@ public class HangmanMinigame : MonoBehaviour
 
     [SerializeField] GameObject stage1, stage2, stage3, stage4, stage5, stage6, platform, player, tutorial, pantallaDerrota, pantallaVictoria;
 
+    [SerializeField] private GameObject rightAnswerSound;
+    [SerializeField] private GameObject victoriaSound;
+
+    [SerializeField] private GameObject loseSound;
+
+    [SerializeField] private GameObject bgmusic;
     public int mistakes = 0, completedWords = 0;
     private bool isComplete, isGameRunning = false, isCorrect = false;
     public bool triggerAlberca = false;
@@ -61,16 +67,21 @@ public class HangmanMinigame : MonoBehaviour
         }
         else if (completedWords >= 3)
         {
+            victoriaSound.SetActive(true);
             pantallaVictoria.SetActive(true);
         }
 
         if (triggerAlberca)
         {
+            bgmusic.SetActive(false);
+            loseSound.SetActive(true);
             pantallaDerrota.SetActive(true);
         }
     }
 
     public void CheckLetter(string inputLetter){
+        rightAnswerSound.SetActive(false);
+        triggerSound.instance.errorSound.SetActive(false);
         char[] letra = new char[inputLetter.Length];
 
         for (int i = 0; i < inputLetter.Length; i++)
@@ -118,6 +129,7 @@ public class HangmanMinigame : MonoBehaviour
         }
         if (isComplete)
         {
+            rightAnswerSound.SetActive(true);
             completedWords += 1;
             palabrasCompletas.text = completedWords.ToString();
         }

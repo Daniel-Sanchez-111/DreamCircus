@@ -20,6 +20,16 @@ public class SilhouetteMinigame : MonoBehaviour
     [SerializeField]
     private GameObject humo;
 
+    [SerializeField] private GameObject smokeSound;
+
+    [SerializeField] private GameObject rightAnswerSound;
+    [SerializeField] private GameObject errorSound;
+    [SerializeField] private GameObject victoriaSound;
+
+    [SerializeField] private GameObject loseSound;
+
+    [SerializeField] private GameObject bgmusic;
+
     public bool hasTouchedPlayer;
 
     public bool allowChange;
@@ -65,6 +75,9 @@ public class SilhouetteMinigame : MonoBehaviour
                         if (TimerController.instance.timer <= 0)
                         {
                             TimerController.instance.timer = 0;
+                            smokeSound.SetActive(false);
+                            rightAnswerSound.SetActive(false);
+                            errorSound.SetActive(false);
                             transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
                             allowChange = false;
                         }
@@ -87,7 +100,9 @@ public class SilhouetteMinigame : MonoBehaviour
                 }
                 else
                 {
+                    bgmusic.SetActive(false);
                     isGameRunning = false;
+                    loseSound.SetActive(true);
                     pantallaDerrota.SetActive(true);
                 }
             }
@@ -98,6 +113,7 @@ public class SilhouetteMinigame : MonoBehaviour
         }
         else if (aciertos >= 3 && !isGameRunning)
         {
+            victoriaSound.SetActive(true);
             pantallaVictoria.SetActive(true);
         }
         
@@ -106,11 +122,13 @@ public class SilhouetteMinigame : MonoBehaviour
     {
         if (chosenAnimal == chosenSilhouette)
         {
-            aciertos+=1;
+            rightAnswerSound.SetActive(true);
+            aciertos += 1;
             aciertos_text.text = aciertos.ToString();
         }
         if( chosenAnimal!=chosenSilhouette)
         {
+            errorSound.SetActive(true);
             PlayerHealthController.instance.DealDamage();
         }
         hasTouchedPlayer = true;
@@ -119,6 +137,7 @@ public class SilhouetteMinigame : MonoBehaviour
 
     public void ChooseAnimal(int animal) {
         if(allowChange) {
+            smokeSound.SetActive(true);
             ParticleSystem ps = GameObject.Find("msVFX_Stylized Smoke 1").GetComponent<ParticleSystem>();
             ps.Play();
             playerImage.enabled = false;
